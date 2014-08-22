@@ -1,1 +1,18 @@
-Explain what git clone does, in your own words
+Git clone when passed a link to a git repo as an argument will clone the repo into your current working directory
+
+Git will then:
+
+	- make a directory with the same name as the the repo (unless otherwize specified)
+
+	- cd into the new directory
+
+	- initialize a new git repository
+
+	- add the remote origin and point it to the url of the repository you are cloneing from
+
+	- fetch the current state of the origins master branch and point you master to the same commit
+
+	- merged the changes into you CWD
+
+	- and finally cd in to the directory you issued the git clone command from
+

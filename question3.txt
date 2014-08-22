@@ -1,1 +1,1 @@
-Explain what branch is, in your own words
+A branch is a pointer to a commit on a repository.  

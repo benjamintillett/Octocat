@@ -1,1 +1,1 @@
-Explain what 'upstream' remote is usually used for in your own words 
+The upstrem remote is usualy the main workingverision of the project typically called origin master. When you push changes from your local machiene to your origin master branch you are pushing them upstream.  
